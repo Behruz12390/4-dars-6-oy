@@ -1,0 +1,22 @@
+.j{
+    background-color: green;
+    color: white;
+    width: 320px;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 12px;
+    height: 200px;
+}
+p{
+    font-size: 16px;
+}
+.s{
+    display: flex;
+    gap: 40px;
+    flex-wrap: wrap;
+    width: 1400px;
+    margin: 0 auto;
+}
+.j:nth-child(2n + 9){
+    margin-left: 360px;
+}
